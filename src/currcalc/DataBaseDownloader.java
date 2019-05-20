@@ -1,16 +1,40 @@
+package currcalc;
+
 import java.sql.*;
 import java.util.TreeMap;
 
-public class Downloader {
+/**
+ * Class performing connection to database - read only
+ */
+public class DataBaseDownloader {
     private Connection conn;
-    public Downloader(String myUrl, String user, String password) throws ClassNotFoundException, SQLException {
+
+    /**
+     * Constructor. Connects to database
+     * @param myUrl URL of database
+     * @param user the user name
+     * @param password user's password
+     * @throws ClassNotFoundException
+     * @throws SQLException
+     */
+    public DataBaseDownloader(String myUrl, String user, String password) throws ClassNotFoundException, SQLException {
         String myDriver = "com.mysql.jdbc.Driver";
         Class.forName(myDriver);
         conn = DriverManager.getConnection(myUrl, user, password);
     }
+    /**
+     * Method that should be called before destruction of an object
+     */
     public void close() throws SQLException {
         conn.close();
     }
+
+    /**
+     * Getter that returns names of currencies and prices (buy or sell, depending on the name of table)
+     * @param tableName name of table
+     * @return TreeMap containing names of currencies and its prices
+     * @throws SQLException
+     */
     public TreeMap<String, Double> getKeysAndVals(String tableName) throws SQLException {
         TreeMap<String, Double> data = new TreeMap<String,Double>();
         String query = "SELECT * FROM " + tableName;
@@ -28,6 +52,13 @@ public class Downloader {
         }
         return data;
     }
+
+    /**
+     * Method returning the latest date from table
+     * @param tableName table name
+     * @return Timestamp containing the latest date
+     * @throws SQLException
+     */
     public Timestamp getDate(String tableName) throws SQLException {
         String query = "SELECT date FROM " + tableName;
         Statement st = conn.createStatement();

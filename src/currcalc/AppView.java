@@ -1,11 +1,22 @@
-import dataload.AppTest;
+package currcalc;
+
+import dataload.MainClass;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.sql.SQLException;
 
+/**
+ * Class that creates a graphical interface of the calculator
+ */
 public class AppView {
+    /**
+     * Method responsible for graphics and events functionality.
+     * It uses AppModel object to perform logical functionality of programm
+     * @throws SQLException
+     * @throws ClassNotFoundException
+     */
     public static void createAndShowGUI() throws SQLException, ClassNotFoundException {
         JFrame jf = new JFrame("Currency Calulator");
         AppModel model = new AppModel();
@@ -17,10 +28,11 @@ public class AppView {
                 } catch (SQLException ex) {
                     ex.printStackTrace();
                 }
-                System.out.println("Zamknac wszystko");
+                System.out.println("Everything closed");
             }
         };
-        jf.addWindowListener(exitListener);
+        jf.addWindowListener(exitListener); //in aim to close AppModel properly
+
         final TextField result = new TextField();
         JComboBox currency = new JComboBox(model.getCurrencies());
         JComboBox buyOrSell = new JComboBox(new String[]{"BUY", "SELL"});
@@ -37,19 +49,17 @@ public class AppView {
                     char currentVal = e.getActionCommand().charAt(0);
                     System.out.println(currentVal);
                     switch (currentVal){
-                        case 'C':
-                            result.setText(model.calculate(currencyString,buyOrSellString,quantityText));
-                            break;
                         case 'R':
-                            AppTest.main(new String[0]);
+                            MainClass.main(new String[0]);
                             break;
                         case 'S':
                             DataView dw = new DataView();
                             break;
+                        case 'C':
                         default:
+                            result.setText(model.calculate(currencyString,buyOrSellString,quantityText));
                             break;
                     }
-
                 } catch (Exception exc) {
                     result.setText(exc.toString());
                 }
@@ -62,10 +72,12 @@ public class AppView {
         jf.getContentPane().add(jp, BorderLayout.CENTER);
         jp.setLayout(new GridLayout(1, 3));
         jp.add(currency);jp.add(buyOrSell);jp.add(quantity);
+
         currency.addActionListener(myActionListener);
         buyOrSell.addActionListener(myActionListener);
         quantity.addActionListener(myActionListener);
         showData.addActionListener(myActionListener);
+
         JPanel jp2 = new JPanel();
         jf.getContentPane().add(jp2,BorderLayout.SOUTH);
         jp2.setLayout(new GridLayout(1,3));
@@ -73,20 +85,24 @@ public class AppView {
 
         calculate.addActionListener(myActionListener);
         refreshData.addActionListener(myActionListener);
+
         jf.pack();
         jf.setVisible(true);
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
+    /**
+     * Main function that creates a new thread running the GUI
+     * @param args arguments from console, not used
+     * @throws SQLException
+     * @throws ClassNotFoundException
+     */
     public static void main(String args[]) throws SQLException, ClassNotFoundException {
-
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
                 try {
                     createAndShowGUI();
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                } catch (ClassNotFoundException e) {
+                } catch (SQLException | ClassNotFoundException e) {
                     e.printStackTrace();
                 }
             }

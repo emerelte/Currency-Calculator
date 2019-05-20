@@ -1,3 +1,5 @@
+package currcalc;
+
 import javax.swing.*;
 import java.awt.*;
 import java.sql.SQLException;
@@ -12,7 +14,7 @@ public class DataView {
         TreeMap<String, Double> sellMap = model.getSellMap();
 
         JTextField date = new JTextField();
-        date.setEditable(false); date.setText("Last refreshment: " + model.getDate());
+        date.setEditable(false); date.setText("Last refreshment: " + model.getDate("exchange_buy"));
         jf.getContentPane().add(date, BorderLayout.NORTH);
 
         JPanel jp = new JPanel();
