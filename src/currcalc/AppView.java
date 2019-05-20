@@ -1,5 +1,6 @@
 package currcalc;
 
+import currcalc.exception.NotAllowedCalculations;
 import dataload.MainClass;
 
 import javax.swing.*;
@@ -46,6 +47,8 @@ public class AppView {
                     String currencyString = (String) currency.getSelectedItem();
                     String buyOrSellString = (String) buyOrSell.getSelectedItem();
                     String quantityText = quantity.getText();
+                    if (quantityText.isEmpty())
+                        return;
                     char currentVal = e.getActionCommand().charAt(0);
                     System.out.println(currentVal);
                     switch (currentVal){
@@ -57,7 +60,11 @@ public class AppView {
                             break;
                         case 'C':
                         default:
-                            result.setText(model.calculate(currencyString,buyOrSellString,quantityText));
+                            try {
+                                result.setText(model.calculate(currencyString, buyOrSellString, quantityText));
+                            } catch (NotAllowedCalculations | NumberFormatException notAllCalc){
+                                result.setText(notAllCalc.getMessage());
+                            }
                             break;
                     }
                 } catch (Exception exc) {

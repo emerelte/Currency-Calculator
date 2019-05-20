@@ -6,14 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80bb7791-30ec-4b09-a96f-7ae418732704" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="80bb7791-30ec-4b09-a96f-7ae418732704" name="Default Changelist" comment="Beta version with comments">
+      <change afterPath="$PROJECT_DIR$/src/currcalc/exception/NotAllowedCalculations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CurrencyCalculator/AppView$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CurrencyCalculator/AppView$2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CurrencyCalculator/AppView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/currcalc/DataView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/currcalc/DataView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/currcalc/AppModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/currcalc/AppModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/currcalc/AppView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/currcalc/AppView.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/currcalc/AppView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="225">
+              <caret line="66" column="29" lean-forward="true" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#548#887#0" expanded="true" />
@@ -44,10 +44,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/currcalc/exception/NotAllowedCalculations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/currcalc/DataView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="270">
               <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -59,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/currcalc/AppModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-419">
-              <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+            <state relative-caret-position="45">
+              <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1658#1666#0" expanded="true" />
@@ -98,6 +111,7 @@
     <findStrings>
       <find>tf</find>
       <find>jf</find>
+      <find>calcula</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,9 +127,10 @@
         <option value="$PROJECT_DIR$/src/AppView.java" />
         <option value="$PROJECT_DIR$/src/currcalc/Downloader.java" />
         <option value="$PROJECT_DIR$/src/currcalc/DataBaseDownloader.java" />
+        <option value="$PROJECT_DIR$/src/currcalc/DataView.java" />
+        <option value="$PROJECT_DIR$/src/currcalc/exception/NotAllowedCalculations.java" />
         <option value="$PROJECT_DIR$/src/currcalc/AppModel.java" />
         <option value="$PROJECT_DIR$/src/currcalc/AppView.java" />
-        <option value="$PROJECT_DIR$/src/currcalc/DataView.java" />
       </list>
     </option>
   </component>
@@ -132,7 +147,28 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CurrencyCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CurrencyCalculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CurrencyCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CurrencyCalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CurrencyCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CurrencyCalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="currcalc" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -183,7 +219,7 @@
       <workItem from="1558281361550" duration="179000" />
       <workItem from="1558285604253" duration="386000" />
       <workItem from="1558354623626" duration="185000" />
-      <workItem from="1558360345444" duration="2810000" />
+      <workItem from="1558360345444" duration="4483000" />
     </task>
     <task id="LOCAL-00001" summary="First version">
       <created>1558124803946</created>
@@ -199,11 +235,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558362994833</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Beta version with comments">
+      <created>1558363227258</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558363227258</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14670000" />
+    <option name="totallyTimeSpent" value="16343000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -333,10 +376,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/Runnable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/currcalc/exception/NotAllowedCalculations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/currcalc/DataView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/currcalc/AppModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-419">
-          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+        <state relative-caret-position="45">
+          <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1658#1666#0" expanded="true" />
@@ -348,31 +419,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/Runnable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/currcalc/AppView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="225">
+          <caret line="66" column="29" lean-forward="true" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#548#887#0" expanded="true" />
             <element signature="e#886#887#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/currcalc/DataView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

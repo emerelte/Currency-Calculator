@@ -1,5 +1,7 @@
 package currcalc;
 
+import currcalc.exception.NotAllowedCalculations;
+
 import java.sql.SQLException;
 import java.util.TreeMap;
 import java.util.Vector;
@@ -39,8 +41,11 @@ public class AppModel {
      * @param m_buyOrSell type of operation (buying or selling)
      * @param m_quantity how much money there is to buy/sell
      * @return String representing the cost
+     * @exception NotAllowedCalculations
      */
-    public String calculate(String m_currency, String m_buyOrSell, String m_quantity){
+    public String calculate(String m_currency, String m_buyOrSell, String m_quantity) throws NotAllowedCalculations, NumberFormatException {
+        if (Double.parseDouble(m_quantity) < 0)
+            throw new NotAllowedCalculations("Use positive numbers");
         double result;
         if (m_buyOrSell == "BUY") {
             result = buyMap.get(m_currency)*Double.parseDouble(m_quantity);
