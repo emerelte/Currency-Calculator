@@ -6,7 +6,15 @@ import java.sql.SQLException;
 import java.util.TreeMap;
 import java.util.Vector;
 
+/**
+ * Class that holds graphical window with information about prices and refreshment date
+ */
 public class DataView {
+    /**
+     * Method called in constructor, creating GUI
+     * @throws SQLException
+     * @throws ClassNotFoundException
+     */
     public static void createAndShowGUI() throws SQLException, ClassNotFoundException {
         JFrame jf = new JFrame("Data");
         AppModel model = new AppModel();
@@ -24,9 +32,9 @@ public class DataView {
         JTextField keys[] = new JTextField[buyMap.size()+1];
         JTextField buyValues[] = new JTextField[buyMap.size()+1];
         JTextField sellValues[] = new JTextField[sellMap.size()+1];
-        keys[0]=new JTextField();keys[0].setText("Waluta");keys[0].setEditable(false);jp.add(keys[0]);
+        keys[0]=new JTextField();keys[0].setText("Currency");keys[0].setEditable(false);jp.add(keys[0]);
         buyValues[0]=new JTextField();buyValues[0].setText("Buy");buyValues[0].setEditable(false);jp.add(buyValues[0]);
-        sellValues[0]=new JTextField();sellValues[0].setText("Waluta");sellValues[0].setEditable(false);jp.add(sellValues[0]);
+        sellValues[0]=new JTextField();sellValues[0].setText("Sell");sellValues[0].setEditable(false);jp.add(sellValues[0]);
         for (int i=1;i<buyMap.size()+1;++i){
             keys[i] = new JTextField();
             keys[i].setText(keyStrings.get(i-1));
@@ -45,6 +53,10 @@ public class DataView {
         jf.setVisible(true);
         jf.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
     }
+
+    /**
+     * Parameterless constructor
+     */
     public DataView() {
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
