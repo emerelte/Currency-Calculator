@@ -1,12 +1,14 @@
 package currcalc;
 
-import currcalc.exception.NotAllowedCalculations;
 import dataload.MainClass;
+import org.apache.log4j.Logger;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.io.IOException;
 import java.sql.SQLException;
+
 
 /**
  * Class that creates a graphical interface of the calculator
@@ -18,7 +20,9 @@ public class AppView {
      * @throws SQLException
      * @throws ClassNotFoundException
      */
-    public static void createAndShowGUI() throws SQLException, ClassNotFoundException {
+    static Logger log = Logger.getLogger(AppView.class.getName());
+    public static void createAndShowGUI() throws SQLException, ClassNotFoundException, IOException {
+        log.info("GUI created.");
         JFrame jf = new JFrame("Currency Calulator");
         AppModel model = new AppModel();
         WindowListener exitListener = new WindowAdapter() {
@@ -29,7 +33,7 @@ public class AppView {
                 } catch (SQLException ex) {
                     ex.printStackTrace();
                 }
-                System.out.println("Everything closed");
+                log.info("App closed");
             }
         };
         jf.addWindowListener(exitListener); //in aim to close AppModel properly
@@ -47,27 +51,39 @@ public class AppView {
                     String currencyString = (String) currency.getSelectedItem();
                     String buyOrSellString = (String) buyOrSell.getSelectedItem();
                     String quantityText = quantity.getText();
-                    if (quantityText.isEmpty())
+                    if (e.getActionCommand().isEmpty()) {
+                        log.info("Empty string as argument.");
+                        result.setText("");
                         return;
+                    }
                     char currentVal = e.getActionCommand().charAt(0);
-                    System.out.println(currentVal);
                     switch (currentVal){
                         case 'R':
+                            log.info("Refreshing data");
                             MainClass.main(new String[0]);
                             break;
                         case 'S':
+                            log.info("Showing data");
                             DataView dw = new DataView();
                             break;
                         case 'C':
                         default:
+                            if (quantityText.isEmpty())
+                                return;
                             try {
                                 result.setText(model.calculate(currencyString, buyOrSellString, quantityText));
-                            } catch (NotAllowedCalculations | NumberFormatException notAllCalc){
+                                log.info("Calculations performed");
+                            //} catch (NumberFormatException nfe){
+                            //    log.warn("Completely wrong String");
+                            //    result.setText("Illegal String");
+                            } catch (IllegalArgumentException notAllCalc){
+                                log.warn("Bad arguments entered");
                                 result.setText(notAllCalc.getMessage());
                             }
                             break;
                     }
                 } catch (Exception exc) {
+                    log.error("Exception caught: " + exc.toString());
                     result.setText(exc.toString());
                 }
             }
@@ -95,6 +111,7 @@ public class AppView {
 
         jf.pack();
         jf.setVisible(true);
+        jf.setResizable(false);
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
@@ -109,7 +126,8 @@ public class AppView {
             public void run() {
                 try {
                     createAndShowGUI();
-                } catch (SQLException | ClassNotFoundException e) {
+                } catch (SQLException | ClassNotFoundException | IOException e) {
+                    log.error("Exception in createAndShowGui");
                     e.printStackTrace();
                 }
             }

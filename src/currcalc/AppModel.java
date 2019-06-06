@@ -1,6 +1,8 @@
 package currcalc;
 
+import currcalc.exception.CommaException;
 import currcalc.exception.NotAllowedCalculations;
+import org.apache.log4j.Logger;
 
 import java.sql.SQLException;
 import java.util.TreeMap;
@@ -13,6 +15,7 @@ public class AppModel {
     DataBaseDownloader dataBaseConnector;
     TreeMap<String, Double> buyMap;
     TreeMap<String, Double> sellMap;
+    static Logger modelLogger = Logger.getLogger(AppView.class.getName());
 
     /**
      * Constructor - creates DataBaseDownloader object. Loading data from the database
@@ -20,6 +23,7 @@ public class AppModel {
      * @throws ClassNotFoundException
      */
     public AppModel() throws SQLException, ClassNotFoundException {
+        modelLogger.debug("Mode logger");
         dataBaseConnector = new DataBaseDownloader("jdbc:mysql://mysql.agh.edu.pl:3306/mtobiasz","mtobiasz", "csjH6UN5BPS7VvYY");
         String buyTableName = "exchange_buy";
         String sellTableName = "exchange_sell";
@@ -44,14 +48,31 @@ public class AppModel {
      * @exception NotAllowedCalculations
      */
     public String calculate(String m_currency, String m_buyOrSell, String m_quantity) throws NotAllowedCalculations, NumberFormatException {
-        if (Double.parseDouble(m_quantity) < 0)
-            throw new NotAllowedCalculations("Use positive numbers");
+        // Check if user's data makes sens after replacing ',' with '.'
+        if (m_quantity.contains(",")){
+            String tmp_quantity = m_quantity.replace(',','.');
+            try{
+                Double.parseDouble(tmp_quantity);
+            } catch (NumberFormatException nfe){
+                System.out.println(nfe.getMessage());
+                throw new NumberFormatException("Illegal String");
+            }
+            throw new CommaException("Use dot instead of comma.");
+        }
+        double my_quantity;
+        try{
+            my_quantity = Double.parseDouble(m_quantity);
+        } catch (NumberFormatException nfe){
+            throw new NumberFormatException("Illegal String");
+        }
+        if (my_quantity < 0)
+            throw new NotAllowedCalculations("Use positive numbers only.");
         double result;
         if (m_buyOrSell == "BUY") {
-            result = buyMap.get(m_currency)*Double.parseDouble(m_quantity);
+            result = buyMap.get(m_currency)*my_quantity;
         }
         else{
-            result = sellMap.get(m_currency)*Double.parseDouble(m_quantity);
+            result = sellMap.get(m_currency)*my_quantity;
         }
         return Double.toString(result);
     }
