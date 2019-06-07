@@ -1,6 +1,5 @@
 package currcalc;
 
-import dataload.MainClass;
 import org.apache.log4j.Logger;
 
 import javax.swing.*;
@@ -39,6 +38,7 @@ public class AppView {
         jf.addWindowListener(exitListener); //in aim to close AppModel properly
 
         final TextField result = new TextField();
+        result.setEditable(false);
         JComboBox currency = new JComboBox(model.getCurrencies());
         JComboBox buyOrSell = new JComboBox(new String[]{"BUY", "SELL"});
         TextField quantity = new TextField();
@@ -60,7 +60,7 @@ public class AppView {
                     switch (currentVal){
                         case 'R':
                             log.info("Refreshing data");
-                            MainClass.main(new String[0]);
+                            model.refresh();
                             break;
                         case 'S':
                             log.info("Showing data");
@@ -73,9 +73,6 @@ public class AppView {
                             try {
                                 result.setText(model.calculate(currencyString, buyOrSellString, quantityText));
                                 log.info("Calculations performed");
-                            //} catch (NumberFormatException nfe){
-                            //    log.warn("Completely wrong String");
-                            //    result.setText("Illegal String");
                             } catch (IllegalArgumentException notAllCalc){
                                 log.warn("Bad arguments entered");
                                 result.setText(notAllCalc.getMessage());
@@ -126,7 +123,10 @@ public class AppView {
             public void run() {
                 try {
                     createAndShowGUI();
-                } catch (SQLException | ClassNotFoundException | IOException e) {
+                } catch (SQLException se){
+                    log.error("SQL exception");
+                    se.printStackTrace();
+                } catch (ClassNotFoundException | IOException e) {
                     log.error("Exception in createAndShowGui");
                     e.printStackTrace();
                 }

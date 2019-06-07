@@ -2,14 +2,16 @@ package currcalc;
 
 import currcalc.exception.CommaException;
 import currcalc.exception.NotAllowedCalculations;
+import dataload.MainClass;
 import org.apache.log4j.Logger;
 
+import java.io.IOException;
 import java.sql.SQLException;
 import java.util.TreeMap;
 import java.util.Vector;
 
 /**
- * Class performing funcionality of the programm
+ * Class performing logical funcionality of the programm
  */
 public class AppModel {
     DataBaseDownloader dataBaseConnector;
@@ -22,7 +24,7 @@ public class AppModel {
      * @throws SQLException
      * @throws ClassNotFoundException
      */
-    public AppModel() throws SQLException, ClassNotFoundException {
+    public AppModel() throws SQLException, ClassNotFoundException, IOException {
         modelLogger.debug("Mode logger");
         dataBaseConnector = new DataBaseDownloader("jdbc:mysql://mysql.agh.edu.pl:3306/mtobiasz","mtobiasz", "csjH6UN5BPS7VvYY");
         String buyTableName = "exchange_buy";
@@ -75,6 +77,15 @@ public class AppModel {
             result = sellMap.get(m_currency)*my_quantity;
         }
         return Double.toString(result);
+    }
+    /**
+     * Method that refreshes data in the database
+     * @throws SQLException
+     * @throws IOException
+     * @throws ClassNotFoundException
+     */
+    public void refresh() throws SQLException, IOException, ClassNotFoundException {
+        MainClass.main(new String[0]);
     }
     /**
      * Getter #1

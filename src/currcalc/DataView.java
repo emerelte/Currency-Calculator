@@ -1,7 +1,10 @@
 package currcalc;
 
+import org.apache.log4j.Logger;
+
 import javax.swing.*;
 import java.awt.*;
+import java.io.IOException;
 import java.sql.SQLException;
 import java.util.TreeMap;
 import java.util.Vector;
@@ -10,12 +13,13 @@ import java.util.Vector;
  * Class that holds graphical window with information about prices and refreshment date
  */
 public class DataView {
+    static Logger log = Logger.getLogger(AppView.class.getName());
     /**
      * Method called in constructor, creating GUI
      * @throws SQLException
      * @throws ClassNotFoundException
      */
-    public static void createAndShowGUI() throws SQLException, ClassNotFoundException {
+    public static void createAndShowGUI() throws SQLException, ClassNotFoundException, IOException {
         JFrame jf = new JFrame("Data");
         AppModel model = new AppModel();
         TreeMap<String, Double> buyMap = model.getBuyMap();
@@ -51,6 +55,7 @@ public class DataView {
         }
         jf.pack();
         jf.setVisible(true);
+        jf.setResizable(false);
         jf.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
     }
 
@@ -62,9 +67,11 @@ public class DataView {
             public void run() {
                 try {
                     createAndShowGUI();
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                } catch (ClassNotFoundException e) {
+                } catch (SQLException se){
+                    log.error("SQL exception");
+                    se.printStackTrace();
+                } catch (ClassNotFoundException | IOException e) {
+                    log.error("Exception in DataView");
                     e.printStackTrace();
                 }
             }
