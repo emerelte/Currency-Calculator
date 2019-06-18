@@ -152,7 +152,7 @@ realizujemy zamówienia indywidualne. Silesia City Center, kantorkatowice.com.pl
        <table border="0" cellspacing="0" cellpadding="2px" align="center" style="width: 100%"> 
         <tbody>
          <tr> 
-          <td colspan="4" align="center"><font face="Arial" size="1" color="#FF9900">Ostatnia aktualizacja:&nbsp;15:17:23&nbsp;&nbsp;2019.06.07 </font> </td> 
+          <td colspan="4" align="center"><font face="Arial" size="1" color="#FF9900">Ostatnia aktualizacja:&nbsp;12:52:33&nbsp;&nbsp;2019.06.12 </font> </td> 
          </tr> 
          <tr bgcolor="#cc99cc"> 
           <td align="middle" bgcolor="#01115C"> <font face="Verdana" size="2" color="white"><b></b></font></td> 
@@ -167,39 +167,39 @@ realizujemy zamówienia indywidualne. Silesia City Center, kantorkatowice.com.pl
           <td align="left" bgcolor="#3333ff"> <font face="Verdana" size="2" color="white"><b>EURO</b></font></td> 
           <td align="middle"> <font face="Verdana" size="3" color="#FF9900"><b>EUR</b></font></td> 
           <td align="middle" bgcolor="#3333ff"> <font face="Verdana" size="2" color="white"><b>1</b></font></td> 
-          <td align="right" bgcolor="#3333ff"> <font face="Verdana" size="3" color="white"><b>4.2200</b></font></td> 
-          <td align="right" bgcolor="#3333ff"> <font face="Verdana" size="3" color="white"><b>4.3200</b></font></td> 
+          <td align="right" bgcolor="#3333ff"> <font face="Verdana" size="3" color="white"><b>4.2100</b></font></td> 
+          <td align="right" bgcolor="#3333ff"> <font face="Verdana" size="3" color="white"><b>4.3100</b></font></td> 
          </tr> 
          <tr bgcolor="#3333cc"> 
           <td bgcolor="#01115C"> <img height="36" src="images/usa_flaga.gif" alt="katowice kantor, chorzow kantor" width="61" border="0"></td> 
           <td bgcolor="#3333cc"> <font face="Verdana" size="2" color="white"><b>USA</b></font></td> 
           <td align="middle"> <font face="Verdana" size="3" color="#FF9900"><b>USD</b></font></td> 
           <td align="middle" bgcolor="#3333cc"> <font face="Verdana" size="2" color="white"><b>1</b></font></td> 
-          <td align="right" bgcolor="#3333cc"> <font face="Verdana" size="3" color="white"><b>3.7200</b></font></td> 
-          <td align="right" bgcolor="#3333cc"> <font face="Verdana" size="3" color="white"><b>3.8200</b></font></td> 
+          <td align="right" bgcolor="#3333cc"> <font face="Verdana" size="3" color="white"><b>3.6900</b></font></td> 
+          <td align="right" bgcolor="#3333cc"> <font face="Verdana" size="3" color="white"><b>3.7900</b></font></td> 
          </tr> 
          <tr bgcolor="#3333ff"> 
           <td bgcolor="#01115C"> <img height="36" src="images/switz.gif" alt="katowice kantor, chorzow kantor" width="61" border="0"></td> 
           <td align="left"> <font face="Verdana" size="2" color="white"><b>Szwajcaria</b></font></td> 
           <td align="middle"> <font face="Verdana" size="3" color="#FF9900"><b>CHF</b></font></td> 
           <td align="middle"> <font face="Verdana" size="2" color="white"><b>1</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>3.8080</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>3.8340</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>3.7850</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>3.8150</b></font></td> 
          </tr> 
          <tr bgcolor="#3333cc"> 
           <td bgcolor="#01115C"><img height="36" src="images/brytania.jpg" alt="katowice kantor, chorzow kantor" width="61" border="0"></td> 
           <td align="left"> <font face="Verdana" size="2" color="white"><b>W.Brytania</b></font></td> 
           <td align="middle"> <font face="Verdana" size="3" color="#FF9900"><b>GBP</b></font></td> 
           <td align="middle"> <font face="Verdana" size="2" color="white"><b>1</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>4.7700</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>4.8700</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>4.7400</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>4.8400</b></font></td> 
          </tr> 
          <tr bgcolor="#3333ff"> 
           <td bgcolor="#01115C"> <img height="36" src="images/dania.gif" alt="katowice kantor, chorzow kantor" width="61" border="0"></td> 
           <td align="left"> <font face="Verdana" size="2" color="white"><b>Dania</b></font></td> 
           <td align="middle"> <font face="Verdana" size="3" color="#FF9900"><b>DKK</b></font></td> 
           <td align="middle"> <font face="Verdana" size="2" color="white"><b>1</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.5590</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.5570</b></font></td> 
           <td align="right"> <font face="Verdana" size="3" color="white"><b>0.5790</b></font></td> 
          </tr> 
          <tr bgcolor="#3333cc"> 
@@ -207,23 +207,23 @@ realizujemy zamówienia indywidualne. Silesia City Center, kantorkatowice.com.pl
           <td align="left"> <font face="Verdana" size="2" color="white"><b>Norwegia</b></font></td> 
           <td align="middle"> <font face="Verdana" size="3" color="#FF9900"><b>NOK</b></font></td> 
           <td align="middle"> <font face="Verdana" size="2" color="white"><b>1</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.4260</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.4380</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.4270</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.4390</b></font></td> 
          </tr> 
          <tr bgcolor="#3333ff"> 
           <td bgcolor="#01115C"> <img height="36" src="images/sweden-t.gif" alt="katowice kantor, chorzow kantor" width="61" border="0"></td> 
           <td align="left"> <font face="Verdana" size="2" color="white"><b>Szwecja</b></font></td> 
           <td align="middle"> <font face="Verdana" size="3" color="#FF9900"><b>SEK</b></font></td> 
           <td align="middle"> <font face="Verdana" size="2" color="white"><b>1</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.3940</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.4080</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.3910</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.4040</b></font></td> 
          </tr> 
          <tr bgcolor="#3333cc"> 
           <td bgcolor="#01115C"> <img height="36" src="images/jpn.gif" alt="katowice kantor, chorzow kantor" width="61" border="0"></td> 
           <td align="left"> <font face="Verdana" size="2" color="white"><b>Japonia</b></font></td> 
           <td align="middle"> <font face="Verdana" size="3" color="#FF9900"><b>JPY</b></font></td> 
           <td align="middle"> <font face="Verdana" size="2" color="white"><b>1</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.0348</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.0347</b></font></td> 
           <td align="right"> <font face="Verdana" size="3" color="white"><b>0.0355</b></font></td> 
          </tr> 
          <tr bgcolor="#3333ff"> 
@@ -231,24 +231,24 @@ realizujemy zamówienia indywidualne. Silesia City Center, kantorkatowice.com.pl
           <td align="left"> <font face="Verdana" size="2" color="white"><b>Ukraina</b></font></td> 
           <td align="middle"> <font face="Verdana" size="3" color="#FF9900"><b>UAH</b></font></td> 
           <td align="middle"> <font face="Verdana" size="2" color="white"><b>1</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.1430</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.1489</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.1436</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.1488</b></font></td> 
          </tr> 
          <tr bgcolor="#3333cc"> 
           <td bgcolor="#01115C"> <img height="36" src="images/as-t.gif" alt="katowice kantor, chorzow kantor" width="61" border="0"></td> 
           <td align="left"> <font face="Verdana" size="2" color="white"><b>Australia</b></font></td> 
           <td align="middle"> <font face="Verdana" size="3" color="#FF9900"><b>AUD</b></font></td> 
           <td align="middle"> <font face="Verdana" size="2" color="white"><b>1</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>2.6210</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>2.6590</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>2.6020</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>2.6550</b></font></td> 
          </tr> 
          <tr bgcolor="#3333ff"> 
           <td bgcolor="#01115C"> <img height="36" src="images/cad.gif" alt="katowice kantor, chorzow kantor" width="61" border="0"></td> 
           <td align="left"> <font face="Verdana" size="2" color="white"><b>Kanada</b></font></td> 
           <td align="middle"> <font face="Verdana" size="3" color="#FF9900"><b>CAD</b></font></td> 
           <td align="middle"> <font face="Verdana" size="2" color="white"><b>1</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>2.8210</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>2.8530</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>2.8160</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>2.8490</b></font></td> 
          </tr> 
          <tr bgcolor="#3333cc"> 
           <td bgcolor="#01115C"> <img height="36" src="images/czechy.gif" alt="katowice kantor, chorzow kantor" width="61" border="0"></td> 
@@ -279,47 +279,47 @@ realizujemy zamówienia indywidualne. Silesia City Center, kantorkatowice.com.pl
           <td align="left"><font face="Verdana" size="2" color="white"><b>Rosja</b></font></td> 
           <td align="middle"><font face="Verdana" size="3" color="#FF9900"><b>RUB</b></font></td> 
           <td align="middle"><font face="Verdana" size="2" color="white"><b>1</b></font></td> 
-          <td align="right"><font face="Verdana" size="3" color="white"><b>0.0585</b></font></td> 
-          <td align="right"><font face="Verdana" size="3" color="white"><b>0.0655</b></font></td> 
+          <td align="right"><font face="Verdana" size="3" color="white"><b>0.0590</b></font></td> 
+          <td align="right"><font face="Verdana" size="3" color="white"><b>0.0650</b></font></td> 
          </tr> 
          <tr bgcolor="#3333cc"> 
           <td bgcolor="#01115C"> <img height="36" src="images/bgl.gif" width="61" border="0"></td> 
           <td align="left"> <font face="Verdana" size="2" color="white"><b>Bułgaria</b></font></td> 
           <td align="middle"> <font face="Verdana" size="3" color="#FF9900"><b>BGN</b></font></td> 
           <td align="middle"> <font face="Verdana" size="2" color="white"><b>1</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>2.2100</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>2.2700</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>2.2150</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>2.2800</b></font></td> 
          </tr> 
          <tr bgcolor="#3333ff"> 
           <td bgcolor="#01115C"> <img height="36" src="images/ron.jpg" alt="katowice kantor, chorzow kantor" width="61" border="0"></td> 
           <td align="left"> <font face="Verdana" size="2" color="white"><b>Rumunia</b></font></td> 
           <td align="middle"> <font face="Verdana" size="3" color="#FF9900"><b>RON</b></font></td> 
           <td align="middle"> <font face="Verdana" size="2" color="white"><b>1</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.9060</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.9350</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.9080</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.9330</b></font></td> 
          </tr> 
          <tr bgcolor="#3333cc"> 
           <td bgcolor="#01115C"> <img height="36" src="images/cny.gif" alt="katowice kantor, chorzow kantor" width="61" border="0"></td> 
           <td align="left"> <font face="Verdana" size="2" color="white"><b>Chiny</b></font></td> 
           <td align="middle"> <font face="Verdana" size="3" color="#FF9900"><b>CNY</b></font></td> 
           <td align="middle"> <font face="Verdana" size="2" color="white"><b>1</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.5510</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.6200</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.5410</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.5900</b></font></td> 
          </tr> 
          <tr bgcolor="#3333ff"> 
           <td bgcolor="#01115C"> <img height="36" src="images/try.gif" alt="katowice kantor, chorzow kantor" width="61" border="0"></td> 
           <td align="left"> <font face="Verdana" size="2" color="white"><b>Turcja</b></font></td> 
           <td align="middle"> <font face="Verdana" size="3" color="#FF9900"><b>TRY</b></font></td> 
           <td align="middle"> <font face="Verdana" size="2" color="white"><b>1</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.6650</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.6950</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.6710</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.7100</b></font></td> 
          </tr> 
          <tr bgcolor="#3333cc"> 
           <td bgcolor="#01115C"> <img height="36" src="images/zea.gif" alt="katowice kantor, chorzow kantor" width="61" border="0"></td> 
           <td align="left"> <font face="Verdana" size="2" color="white"><b>Zjed.Emiraty Arabskie</b></font></td> 
           <td align="middle"> <font face="Verdana" size="3" color="#FF9900"><b>AED</b></font></td> 
           <td align="middle"> <font face="Verdana" size="2" color="white"><b>1</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>1.0210</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>1.0040</b></font></td> 
           <td align="right"> <font face="Verdana" size="3" color="white"><b>1.0650</b></font></td> 
          </tr> 
          <tr bgcolor="#3333ff"> 
@@ -328,15 +328,15 @@ realizujemy zamówienia indywidualne. Silesia City Center, kantorkatowice.com.pl
           <td align="middle"> <font face="Verdana" size="3" color="#FF9900"><b>THB</b></font></td> 
           <td align="middle"> <font face="Verdana" size="2" color="white"><b>1</b></font></td> 
           <td align="right"> <font face="Verdana" size="3" color="white"><b>0.1190</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.1248</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>0.1245</b></font></td> 
          </tr> 
          <tr bgcolor="#3333cc"> 
           <td bgcolor="#01115C"> <img height="36" src="images/ils.gif" alt="katowice kantor, chorzow kantor" width="61" border="0"></td> 
           <td align="left"> <font face="Verdana" size="2" color="white"><b>Izrael</b></font></td> 
           <td align="middle"> <font face="Verdana" size="3" color="#FF9900"><b>ILS</b></font></td> 
           <td align="middle"> <font face="Verdana" size="2" color="white"><b>1</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>1.0360</b></font></td> 
-          <td align="right"> <font face="Verdana" size="3" color="white"><b>1.0640</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>1.0250</b></font></td> 
+          <td align="right"> <font face="Verdana" size="3" color="white"><b>1.0690</b></font></td> 
          </tr> 
          <tr bgcolor="#3333ff"> 
           <td bgcolor="#01115C"> <img height="36" src="images/ue2.jpg" alt="katowice kantor, chorzow kantor" width="61" border="0"></td> 
@@ -531,7 +531,7 @@ realizujemy zamówienia indywidualne. Silesia City Center, kantorkatowice.com.pl
           <td> </td>
          </tr> 
          <tr> 
-          <td align="left"> <font face="Arial" size="1" color="#FF9900">Ostatnia aktualizacja:&nbsp;15:17:23&nbsp;&nbsp;2019.06.07 </font> </td> 
+          <td align="left"> <font face="Arial" size="1" color="#FF9900">Ostatnia aktualizacja:&nbsp;12:52:33&nbsp;&nbsp;2019.06.12 </font> </td> 
          </tr> 
         </tbody>
        </table> 
@@ -546,62 +546,62 @@ realizujemy zamówienia indywidualne. Silesia City Center, kantorkatowice.com.pl
          <tr bgcolor="ff7505" height="40"> 
           <td align="middle"> <font face="Verdama" size="5" color="black"><b>EUR</b></font></td> 
           <td align="middle"> <font face="Verdama" size="5" color="black"><b>1</b></font></td> 
-          <td align="right"> <font face="Verdama" size="5" color="black"><b>4.2620</b></font></td> 
-          <td align="right"> <font face="Verdama" size="5" color="black"><b>4.2820</b></font></td> 
+          <td align="right"> <font face="Verdama" size="5" color="black"><b>4.2580</b></font></td> 
+          <td align="right"> <font face="Verdama" size="5" color="black"><b>4.2880</b></font></td> 
          </tr> 
          <tr bgcolor="#ff8e33" height="40"> 
           <td align="middle"> <font face="Verdama" size="5" color="black"><b>USD</b></font></td> 
           <td align="middle"> <font face="Verdama" size="5" color="black"><b>1</b></font></td> 
-          <td align="right"> <font face="Verdama" size="5" color="black"><b>3.7670</b></font></td> 
-          <td align="right"> <font face="Verdama" size="5" color="black"><b>3.8090</b></font></td> 
+          <td align="right"> <font face="Verdama" size="5" color="black"><b>3.7620</b></font></td> 
+          <td align="right"> <font face="Verdama" size="5" color="black"><b>3.7880</b></font></td> 
          </tr> 
          <tr bgcolor="#ff7505" height="40"> 
           <td align="middle"> <font face="Verdama" size="5" color="black"><b>GBP</b></font></td> 
           <td align="middle"> <font face="Verdama" size="5" color="black"><b>1</b></font></td> 
-          <td align="right"> <font face="Verdama" size="5" color="black"><b>4.7910</b></font></td> 
-          <td align="right"> <font face="Verdama" size="5" color="black"><b>4.8390</b></font></td> 
+          <td align="right"> <font face="Verdama" size="5" color="black"><b>4.7810</b></font></td> 
+          <td align="right"> <font face="Verdama" size="5" color="black"><b>4.8100</b></font></td> 
          </tr> 
          <tr bgcolor="#ff8e33" height="40"> 
           <td align="middle"> <font face="Verdama" size="5" color="black"><b>NOK</b></font></td> 
           <td align="middle"> <font face="Verdama" size="5" color="black"><b>1</b></font></td> 
-          <td align="right"> <font face="Verdama" size="5" color="black"><b>0.4336</b></font></td> 
-          <td align="right"> <font face="Verdama" size="5" color="black"><b>0.4380</b></font></td> 
+          <td align="right"> <font face="Verdama" size="5" color="black"><b>0.4335</b></font></td> 
+          <td align="right"> <font face="Verdama" size="5" color="black"><b>0.4375</b></font></td> 
          </tr> 
          <tr bgcolor="#ff7505" height="40"> 
           <td align="middle"> <font face="Verdama" size="5" color="black"><b>SEK</b></font></td> 
           <td align="middle"> <font face="Verdama" size="5" color="black"><b>1</b></font></td> 
-          <td align="right"> <font face="Verdama" size="5" color="black"><b>0.3988</b></font></td> 
-          <td align="right"> <font face="Verdama" size="5" color="black"><b>0.4069</b></font></td> 
+          <td align="right"> <font face="Verdama" size="5" color="black"><b>0.3968</b></font></td> 
+          <td align="right"> <font face="Verdama" size="5" color="black"><b>0.4039</b></font></td> 
          </tr> 
          <tr bgcolor="#ff8e33" height="40"> 
           <td align="middle"> <font face="Verdama" size="5" color="black"><b>DKK</b></font></td> 
           <td align="middle"> <font face="Verdama" size="5" color="black"><b>1</b></font></td> 
-          <td align="right"> <font face="Verdama" size="5" color="black"><b>0.5698</b></font></td> 
-          <td align="right"> <font face="Verdama" size="5" color="black"><b>0.5780</b></font></td> 
+          <td align="right"> <font face="Verdama" size="5" color="black"><b>0.5687</b></font></td> 
+          <td align="right"> <font face="Verdama" size="5" color="black"><b>0.5750</b></font></td> 
          </tr> 
          <tr bgcolor="#ff7505" height="40"> 
           <td align="middle"> <font face="Verdama" size="5" color="black"><b>CHF</b></font></td> 
           <td align="middle"> <font face="Verdama" size="5" color="black"><b>1</b></font></td> 
-          <td align="right"> <font face="Verdama" size="5" color="black"><b>3.8100</b></font></td> 
-          <td align="right"> <font face="Verdama" size="5" color="black"><b>3.8290</b></font></td> 
+          <td align="right"> <font face="Verdama" size="5" color="black"><b>3.7860</b></font></td> 
+          <td align="right"> <font face="Verdama" size="5" color="black"><b>3.8090</b></font></td> 
          </tr> 
          <tr bgcolor="#ff8e33" height="40"> 
           <td align="middle"> <font face="Verdama" size="5" color="black"><b>CZK</b></font></td> 
           <td align="middle"> <font face="Verdama" size="5" color="black"><b>1</b></font></td> 
-          <td align="right"> <font face="Verdama" size="5" color="black"><b>0.1657</b></font></td> 
-          <td align="right"> <font face="Verdama" size="5" color="black"><b>0.1665</b></font></td> 
+          <td align="right"> <font face="Verdama" size="5" color="black"><b>0.1653</b></font></td> 
+          <td align="right"> <font face="Verdama" size="5" color="black"><b>0.1664</b></font></td> 
          </tr> 
          <tr bgcolor="#ff7505" height="40"> 
           <td align="middle"> <font face="Verdama" size="5" color="black"><b>HUF</b></font></td> 
           <td align="middle"> <font face="Verdama" size="5" color="black"><b>100</b></font></td> 
-          <td align="right"> <font face="Verdama" size="5" color="black"><b>1.3210</b></font></td> 
+          <td align="right"> <font face="Verdama" size="5" color="black"><b>1.3230</b></font></td> 
           <td align="right"> <font face="Verdama" size="5" color="black"><b>1.3470</b></font></td> 
          </tr> 
          <tr bgcolor="#ff8e33" height="40"> 
           <td align="middle"> <font face="Verdama" size="5" color="black"><b>HRK</b></font></td> 
           <td align="middle"> <font face="Verdama" size="5" color="black"><b>1</b></font></td> 
           <td align="right"> <font face="Verdama" size="5" color="black"><b>0.5820</b></font></td> 
-          <td align="right"> <font face="Verdama" size="5" color="black"><b>0.5920</b></font></td> 
+          <td align="right"> <font face="Verdama" size="5" color="black"><b>0.5910</b></font></td> 
          </tr> 
         </tbody>
        </table> 

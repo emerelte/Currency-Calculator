@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.sql.SQLException;
+import java.text.DecimalFormat;
 import java.util.TreeMap;
 import java.util.Vector;
 
@@ -76,7 +77,8 @@ public class AppModel {
         else{
             result = sellMap.get(m_currency)*my_quantity;
         }
-        return Double.toString(result);
+        DecimalFormat df = new DecimalFormat("#.####");
+        return Double.toString(Double.parseDouble(df.format(result)));
     }
     /**
      * Method that refreshes data in the database
